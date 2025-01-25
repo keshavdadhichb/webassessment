@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav's Cricket Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(217, 230, 255);
+        }
+        header {
+            background-color: #f58958;
+            color: black;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        .sidebar {
+            background-color: white;
+            padding: 15px;
+            width: 20%;
+            margin-right: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .posts {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .post {
+            background-color: #35cafe;
+            padding: 20px;
+            flex: 1;
+            min-width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .post h2 {
+            margin: 10px 0;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #f58958;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social-media {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 10px 0;
+        }
+        .social-media li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        .social-media li a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Keshav's Cricket Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">MS Dhoni - The Best Captain India will ever experience.</a></li>
+                <li><a href="#">Underrated or Overrated? This Cricketing star is going through bad form.</a></li>
+                <li><a href="#">The Saviour of Indian Test Cricket Havoc - A comprehensive Legend</a></li>
+                <li><a href="#">I only believe on Jassi Bhai because game changer player is only one guy - Jasprit Bumrah</a></li>
+            </ul>
+        </div>
+        <div class="posts">
+            <div class="post">
+                <img src="download.jpeg" alt="MS Dhoni">
+                <h2>MS Dhoni - The Best Captain India will ever experience.</h2>
+                <p>Mahendra Singh Dhoni, a true legend of the game - arguably the best wicket-keeper of all time and the best captain of all time, leading Indian Team to many glorious wins.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="post">
+                <img src="download (1).jpeg" alt="Virat Kohli">
+                <h2>The Saviour of Indian Test Cricket Havoc - A comprehensive Legend</h2>
+                <p>Virat Kohli - The Man. The Myth. The Legend. A true warrior on the field - leaves no mercy, while on controversy, his captaincy skills never disappoint.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="post">
+                <img src="download (2).jpeg" alt="Rohit Sharma">
+                <h2>Underrated or Overrated? This Cricketing star is going through bad form.</h2>
+                <p>Most Runs ever scored in an ODI Innings, the HITMAN of the game, the Man himself - Rohit Sharma, the current team India captain across platforms is in bad form.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="post">
+                <img src="download (3).jpeg" alt="Jasprit Bumrah">
+                <h2>I only believe on Jassi Bhai because game changer player is only one guy - Jasprit Bumrah</h2>
+                <p>No words to describe this ultimate piece of beauty - it is my pleasure to be born in this era to witness this beauty.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Follow me on:</p>
+        <ul class="social-media">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <p>&copy; 2025 Keshav's Cricket Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
